@@ -1,0 +1,19 @@
+.cabecalho__titulo{
+    text-align: center;
+    font-weight: 700;
+    color: var(--cor-primaria);
+    padding: 0.5rem 0;
+}
+
+.cabecalho__titulo i {
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 780px) {
+    .cabecalho__titulo {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

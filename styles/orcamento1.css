@@ -1,0 +1,57 @@
+body {
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+header{
+    margin-top: 20px;
+}
+
+.div__btn{
+    display: flex;
+    justify-content: end;
+}
+
+#btn-download{
+    padding: 1rem 2rem;
+    background-color: #ee821a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.cabecalho__titulo {
+    padding: 1rem;
+}
+
+.data {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1rem;
+}
+
+.data h3 {
+    font-size: 1rem;
+}
+
+.quadro__de__dados {
+    border: 1px solid #bfc0bd;
+    border-top: none;
+    padding: 1rem;
+}
+
+.rodape p{
+    text-align: center;
+}

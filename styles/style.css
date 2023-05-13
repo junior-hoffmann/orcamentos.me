@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import url('./cabecalho.css');
+@import url('./boas_vindas.css');
+@import url('./inicio_app.css');
+@import url('./rodape.css');
+@import url('./novo_orcamento.css');
+
+:root {
+    --fonte: 'Montserrat', sans-serif;
+    --branco: #ffffff;
+    --laranja: #ee821a;
+    --cor-primaria: #424642;
+    --cor-secundaria: #F3F4ED;
+    --cor-terciaria: #C06014;
+    --degrade: linear-gradient(to bottom, #f9655b, #ee821a);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte);
+    font-weight: 300;
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    box-sizing: border-box;
+}

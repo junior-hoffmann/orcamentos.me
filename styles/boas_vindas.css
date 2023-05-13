@@ -1,0 +1,49 @@
+.boas-vindas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: var(--degrade);
+}
+
+.boas-vindas p {
+    width: 80vw;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--branco);
+    font-weight: 700;
+}
+
+.slide{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+@media screen and (min-width: 780px) {
+    .boas-vindas {
+        height: 90vh;
+    }
+
+    .boas-vindas img {
+        height: 70%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .boas-vindas p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slide {
+        height: 30%;
+        gap: 0px;
+    }
+
+}

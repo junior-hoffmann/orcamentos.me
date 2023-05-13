@@ -1,0 +1,18 @@
+.rodape{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    flex-direction: column;
+    background-color: var(--branco);
+}
+
+.rodape__texto{
+    margin: 0;
+    font-weight: 400;
+}
+
+.rodape__texto a {
+    color: var(--laranja);
+    font-weight: 600;
+    text-decoration: none;
+}

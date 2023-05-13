@@ -1,0 +1,71 @@
+.inicio__app{
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio__app h2 {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-weight: 600;
+    color: var(--laranja);
+}
+
+.form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form-control{
+    font-size: 1.3rem;
+}
+
+.form__secao{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 1rem 0;
+}
+
+.form__secao h3{
+    font-size: 1rem;
+    width: max-content;
+    white-space: nowrap;
+}
+
+.form__secao hr{
+    width: 100%;
+}
+
+.btn-padrao{
+    background-color: var(--laranja);
+    color: var(--branco);
+}
+
+.btn-padrao:hover{
+    background-color: var(--cor-terciaria);
+    color: var(--branco);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 780px) {
+
+    .inicio__app{
+        position: relative;
+        width: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .inicio__app h2 {
+        padding: 2rem;
+    }
+
+    .btn-padrao {
+        padding: 0.8rem;
+        margin-top: 1rem;
+    }
+
+}
